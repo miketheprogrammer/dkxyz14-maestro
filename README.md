@@ -51,9 +51,6 @@ curl http://$(docker-machine ip c1):8080/
 # Cannot GET /
 ```
 
-Run build scripts for images
-```
-
 Registering applications
 --------------------------
 Download and open up your favorite http client like Postman for Chrome
