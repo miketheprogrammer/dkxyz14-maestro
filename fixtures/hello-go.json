@@ -1,0 +1,19 @@
+{
+  "name": "hello-go",
+  "image": "miketheprogrammer/hello-go",
+  "command": "",
+  "scale": 1,
+  "docker_options": {
+    "ExposedPorts": {
+      "12345/tcp": {
+      }
+    },
+    "Env": [
+      "MSG=hello-from-mike"
+    ],
+    "HostConfig": {
+      "PublishAllPorts": true
+    }
+  },
+  "options": {}
+}

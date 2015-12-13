@@ -1,0 +1,17 @@
+{
+  "name": "hello-node",
+  "image": "charlesxiong/node-hello",
+  "command": "",
+  "scale": 10,
+  "docker_options": {
+    "ExposedPorts": {
+      "8080/tcp": {
+        "HostPort": "8081"
+      }
+    },
+    "HostConfig": {
+      "PublishAllPorts": true
+    }
+  },
+  "options": {}
+}

@@ -1,11 +1,11 @@
 {
-  "name": "go-thrust-chat-server",
-  "image": "miketheprogrammer/go-thrust-chat-server",
+  "name": "hello-python",
+  "image": "miketheprogrammer/hello-python",
   "command": "",
   "scale": 1,
   "docker_options": {
     "ExposedPorts": {
-      "8000/tcp": {
+      "9090/tcp": {
       }
     },
     "Env": [
