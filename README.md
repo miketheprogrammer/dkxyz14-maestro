@@ -102,7 +102,8 @@ cd ./deploy
 ./lua.sh 1 9001 v2 v1
 ./python.sh 1 9002 v1
 ./python.sh 1 9002 v2 v1
-
+./go-thrust-chat.sh 1 9003 v1
+./go-thrust-chat.sh 1 9003 v2 v1
 ```
 
 
