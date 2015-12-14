@@ -1,12 +1,12 @@
 Why use this instead of the alternatives
 ==========================
-Everyone knows docker is HARD. Docker is opinionated, unfortunately the frameworks for orchestrating docker often seem very opinionated as well.
-Mesos/Marathon - extremely opinionated, resource hog, difficult to set up.
-Rancher - extremely opinionated, beta, uses custom networking
-Kubernetes - Acceptably opinionated, early version. Overly complex at times. Its a lifelong commitment.
-Yelps(PAASTA) - Good for yelp, but not others. However most architectures should strive to be similar.
-SWARM - good. basic. nothing much to see.
-ECS - scary, ITB (in the box), relies heavily on amazon.
+ - Everyone knows docker is HARD. Docker is opinionated, unfortunately the frameworks for orchestrating docker often seem  very opinionated as well.
+ - Mesos/Marathon - extremely opinionated, resource hog, difficult to set up.
+ - Rancher - extremely opinionated, beta, uses custom networking
+ - Kubernetes - Acceptably opinionated, early version. Overly complex at times. Its a lifelong commitment.
+ - Yelps(PAASTA) - Good for yelp, but not others. However most architectures should strive to be similar.
+ - SWARM - good. basic. nothing much to see.
+ - ECS - scary, ITB (in the box), relies heavily on amazon.
 
 Why do i like Maestro, and this repo?
 Its simple, mildly opinionated, just really a transparent wrapper over the Docker Remote API.
