@@ -4,7 +4,7 @@ SETUP
 
 WARNINGS
 -------------------------
-When assigning a strict host IP as is the case with the deploy scripts.
+When assigning a strict host PORT as is the case with the deploy scripts.
 Maestro likes to be dumb, it will not detect ip's already in use.
 It will continue to try to deploy the application no matter what.
 This could eat up hard disk space and leave you in a bad place.
