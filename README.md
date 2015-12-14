@@ -87,6 +87,10 @@ Zero Downtime Deployments
 Zero DT Deployments, in this case, are executing by creating another application with a different image or image:tag combo and
 deploying that application.
 
+*** (Quick important note on Zero DT - this is not true zero dt, as there can still be instability for long lived and keepalive connections.
+We can use the docker POST /containers/:id?signal  to send a SIGUSR2 or something to signal our applications to gracefully shutdown.
+)
+
 Basically the flow is like this
 
 1. Deploy your first application
