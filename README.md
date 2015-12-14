@@ -1,3 +1,25 @@
+Why use this instead of the alternatives
+==========================
+Everyone knows docker is HARD. Docker is opinionated, unfortunately the frameworks for orchestrating docker often seem very opinionated as well.
+Mesos/Marathon - extremely opinionated, resource hog, difficult to set up.
+Rancher - extremely opinionated, beta, uses custom networking
+Kubernetes - Acceptably opinionated, early version. Overly complex at times. Its a lifelong commitment.
+Yelps(PAASTA) - Good for yelp, but not others. However most architectures should strive to be similar.
+SWARM - good. basic. nothing much to see.
+ECS - scary, ITB (in the box), relies heavily on amazon.
+
+Why do i like Maestro, and this repo?
+Its simple, mildly opinionated, just really a transparent wrapper over the Docker Remote API.
+It does what it needs to do an nothing else.
+Since it is simple, you code other services to help you out. i.e. Registration Service, Proxy Service.
+Hell I dont have to use this registration-service, i can instead use Progriums/Registratrator --- I love composable pieces.
+
+Always opt for composable pieces that are light wrappers of pre-existing well tested code, and use them together. It is the
+Unix Philosophy and has worked for a long time
+
+```bash
+ps aux | grep -i myapplication | node -e "console.log('hello world')" | grep -c world | cat > file.txt
+```
 
 SETUP
 ==========================
