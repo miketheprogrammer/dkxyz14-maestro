@@ -36,7 +36,7 @@ then
   echo "There is no old version"
 else
   echo "bringing down old version in 10 seconds"
-  sleep 10
+  sleep 0
   json='{
     "name": "hello-go'$4'",
     "image": "miketheprogrammer/hello-go",

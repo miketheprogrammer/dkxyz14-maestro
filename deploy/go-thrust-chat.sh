@@ -36,7 +36,7 @@ then
   echo "There is no old version"
 else
   echo "bringing down old version in 10 seconds"
-  sleep 10
+  sleep 0
   json='{
     "name": "go-thrust-chat-server'$4'",
     "image": "miketheprogrammer/go-thrust-chat-server",
